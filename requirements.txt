@@ -1,0 +1,10 @@
+# requirements.txt
+numpy
+pandas
+scikit-learn
+torch
+transformers
+nltk # オプション: 特徴量抽出用
+spacy # オプション: 特徴量抽出用
+# spacyを使う場合、モデルもダウンロードが必要: python -m spacy download en_core_web_sm
+tqdm # 進捗表示用
